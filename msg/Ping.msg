@@ -11,6 +11,10 @@ float64[] azimuths
 uint32 num_bins    # same as image height
 float64[] ranges
 
+# beamwidth
+float64 hfov # horizontal (azimuth) beam width (in-plane) [rad]
+float64 vfov # vertical (elevation) beam width (out-of-plane) [rad]
+
 # for all fields below, use -1 if unavailable/unknown
 float64 frequency   # acoustic signal carrier frequency [Hz]
 float64 pressure    # external pressure [Pa]
