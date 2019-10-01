@@ -11,6 +11,8 @@ float64[] azimuths
 uint32 num_bins    # same as image height
 float64[] ranges
 
+float64[] tvg      # time-varying gain (set to 1 if unavailable/unknown)
+
 # beamwidth
 float64 hfov # horizontal (azimuth) beam width (in-plane) [rad]
 float64 vfov # vertical (elevation) beam width (out-of-plane) [rad]
