@@ -51,7 +51,7 @@ add_message_files(
   DIRECTORY msg
   FILES
   Ping.msg
-  SonarScan.msg
+  Scan.msg
 )
 
 ## Generate services in the 'srv' folder
