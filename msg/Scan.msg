@@ -27,3 +27,4 @@ float32[] magnitude     # magnitude data [device-specific units].  If your
                         # device does not provide intensities, please leave
                         # the array empty.
 float32[] phase         # phase data. If unavailable, set to 0.
+uint32[] label          # return labels (if available)
